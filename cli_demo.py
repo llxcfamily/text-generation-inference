@@ -131,7 +131,7 @@ def main(stream=True):
         if prompt.strip() == 'vim':
             prompt = vim_input()
             print(prompt)
-        print(Fore.CYAN + Style.BRIGHT + "\nBaichuan：" + Style.NORMAL, end='')
+        print(Fore.CYAN + Style.BRIGHT + "\nLLM-CHAT-DEMO：" + Style.NORMAL, end='')
         if prompt.strip() == "stream":
             stream = not stream
             print(Fore.YELLOW + "({}流式生成)\n".format("开启" if stream else "关闭"), end='')
