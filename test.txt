@@ -1,1 +1,2 @@
-who is the best nba player?
+USER: who is the best nba player? ASSISTANT:
+USER: 简要介绍中国新能源的发展？ ASSISTANT:

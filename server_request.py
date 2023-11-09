@@ -54,6 +54,7 @@ def generate(url: str, input_file: str, output_file: str) -> None:
                     print("error")
                 for output in get_streaming_response(resp):
                     print(output , end='', flush=True)
+                print("\n")
             except  Exception as e:
                 print(f"call error! {e}")
 
