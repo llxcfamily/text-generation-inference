@@ -13,7 +13,7 @@ docker run -d -it --rm --gpus all --ulimit memlock=-1 --ulimit stack=67108864  \
     -v ${CODE_DIR}:/workspace/ \
     --name ${NAME} \
     -p 5000:5000 \
-    starryskyyl/tgi_test_demo:latest
+    ${TAG}
 
 # exec docker container
 docker exec -it ${NAME} /bin/bash
